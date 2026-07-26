@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  html.dark body {
+    @apply bg-espresso text-cream;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-espresso;
+  }
+  html.dark h1, html.dark h2, html.dark h3, html.dark h4 {
+    @apply text-cream;
+  }
+  ::selection {
+    @apply bg-accent/20 text-espresso;
+  }
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-cream;
+  }
+}
+
+@layer components {
+  /* Glass card — the recurring "menu board behind cafe glass" motif */
+  .glass-card {
+    @apply relative rounded-xl2 border border-white/60 bg-white/60 backdrop-blur-xl shadow-glass;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3
+           font-body font-semibold text-cream shadow-soft transition-all duration-200
+           hover:bg-primary-dark hover:shadow-soft-lg active:scale-[0.98]
+           disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3
+           font-body font-semibold text-cream shadow-soft transition-all duration-200
+           hover:bg-accent-light hover:shadow-soft-lg active:scale-[0.98]
+           disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-primary/20 bg-transparent px-6 py-3
+           font-body font-semibold text-primary transition-all duration-200
+           hover:bg-primary/5 active:scale-[0.98];
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border border-secondary/40 bg-white/70 px-4 py-3 font-body text-espresso
+           placeholder:text-espresso/40 transition-all duration-200
+           focus:border-accent focus:bg-white focus:outline-none focus:ring-2 focus:ring-accent/20;
+  }
+
+  .input-error {
+    @apply border-red-400 focus:border-red-500 focus:ring-red-200;
+  }
+
+  .field-error-text {
+    @apply mt-1.5 text-sm font-medium text-red-500;
+  }
+
+  .skeleton {
+    @apply relative overflow-hidden bg-secondary/15;
+  }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0 -translate-x-full;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+    animation: shimmer 1.6s linear infinite;
+  }
+}
+
+/* Signature element: a rising steam-curl divider, used at hero/section breaks */
+.steam-divider {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 6px;
+  height: 28px;
+}
+.steam-divider span {
+  width: 3px;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(180deg, transparent, #d2691e88);
+  animation: steam 3.2s ease-in-out infinite;
+}
+.steam-divider span:nth-child(2) { animation-delay: 0.4s; }
+.steam-divider span:nth-child(3) { animation-delay: 0.8s; }
+.steam-divider span:nth-child(4) { animation-delay: 1.2s; }
+.steam-divider span:nth-child(5) { animation-delay: 1.6s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .steam-divider span,
+  .skeleton::after {
+    animation: none !important;
+  }
+}

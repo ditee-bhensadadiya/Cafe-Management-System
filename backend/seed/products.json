@@ -1,0 +1,184 @@
+[
+  {
+    "category": "Coffee",
+    "products": [
+      {
+        "name": "Espresso",
+        "description": "Strong black coffee",
+        "price": 120,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/espresso.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9lc3ByZXNzby5wbmciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDU2MTk4LCJleHAiOjE4MTY1OTIxOTh9.kUCmpBg1mzJJ-yMVHEUHSv6Oja8EDLv49UFwVxgTTbA",
+        "available": true
+      },
+      {
+        "name": "Americano",
+        "description": "Espresso with hot water",
+        "price": 140,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/americano.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9hbWVyaWNhbm8ucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NTA1NjAzMSwiZXhwIjoxODE2NTkyMDMxfQ.Q-0n_Tu17Dd9HbLT-myYlO_Ig8OkkY7FvRuU_0-DNkE",
+        "available": true
+      },
+      {
+        "name": "Cappuccino",
+        "description": "Espresso with steamed milk foam",
+        "price": 180,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/cappuccino.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9jYXBwdWNjaW5vLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwNTYxMDYsImV4cCI6MTgxNjU5MjEwNn0.S3C5Sq9ANDsdgACTguI4otUY8BD7Nqg5hDNvOpFkSWo",
+        "available": true
+      },
+      {
+        "name": "Latte",
+        "description": "Creamy milk coffee",
+        "price": 190,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/latte.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9sYXR0ZS5wbmciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDU2MjUwLCJleHAiOjE4MTY1OTIyNTB9.Aif-DrrrnxQqJm2ACyxcQjQTRIqhk_7ehhcPzR1P2UM",
+        "available": true
+      },
+      {
+        "name": "Mocha",
+        "description": "Chocolate coffee",
+        "price": 210,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/mocha.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9tb2NoYS5wbmciLCJzY29wZSI6ImRvd25sb2FkIiwiaWF0IjoxNzg1MDU2MzIxLCJleHAiOjE4MTY1OTIzMjF9.Dv5Eqh_enF3NOq_psylHDx460A1E5Th4EMyTqS65ekM",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Cold Coffee",
+    "products": [
+      {
+        "name": "Cold Coffee",
+        "description": "Classic iced coffee",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Cold Mocha",
+        "description": "Chocolate iced coffee",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Caramel Frappe",
+        "description": "Blended caramel frappe",
+        "price": 240,
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Tea",
+    "products": [
+      {
+        "name": "Masala Tea",
+        "description": "Indian spiced tea",
+        "price": 80,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/masala%20tea.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9tYXNhbGEgdGVhLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwNTYyOTgsImV4cCI6MTgxNjU5MjI5OH0.6wYEeV_O_w59iLG4Y6lSe0Azy5qJ8be2D7xIYB5AlV4",
+        "available": true
+      },
+      {
+        "name": "Green Tea",
+        "description": "Healthy green tea",
+        "price": 90,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/green%20tea.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9ncmVlbiB0ZWEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NTA1NjIyNiwiZXhwIjoxODE2NTkyMjI2fQ.eAGZCG2AGacr--AKlMxl53IQHBJEg2NKVG0WnwiE4YQ",
+        "available": true
+      },
+      {
+        "name": "Lemon Tea",
+        "description": "Refreshing lemon tea",
+        "price": 90,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/lemon%20tea.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9sZW1vbiB0ZWEucG5nIiwic2NvcGUiOiJkb3dubG9hZCIsImlhdCI6MTc4NTA1NjI3NSwiZXhwIjoxODE2NTkyMjc1fQ.-lfTja_p0gNt5WMMqSCAno70-YLcHRI85ciaog7-69w",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Sandwich",
+    "products": [
+      {
+        "name": "Veg Sandwich",
+        "description": "Fresh vegetable sandwich",
+        "price": 160,
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Grilled Cheese Sandwich",
+        "description": "Cheesy grilled sandwich",
+        "price": 190,
+        "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Paneer Sandwich",
+        "description": "Paneer sandwich",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Pizza",
+    "products": [
+      {
+        "name": "Margherita Pizza",
+        "description": "Classic cheese pizza",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Farmhouse Pizza",
+        "description": "Loaded vegetable pizza",
+        "price": 390,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Burger",
+    "products": [
+      {
+        "name": "Veg Burger",
+        "description": "Veg burger",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      },
+      {
+        "name": "Cheese Burger",
+        "description": "Cheese burger",
+        "price": 210,
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "available": true
+      }
+    ]
+  },
+  {
+    "category": "Desserts",
+    "products": [
+      {
+        "name": "Brownie",
+        "description": "Chocolate brownie",
+        "price": 150,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/brownie.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9icm93bmllLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwNTYwNzUsImV4cCI6MTgxNjU5MjA3NX0.Rz0oVicwgPTCK33kzBUczeSRgmElnPczPacBGAeKtd0",
+        "available": true
+      },
+      {
+        "name": "Cheesecake",
+        "description": "Creamy cheesecake",
+        "price": 240,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/cheesecake.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9jaGVlc2VjYWtlLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwNTYxMzUsImV4cCI6MTgxNjU5MjEzNX0.kg3sduuYLhj0MomnbeB8jxdL109L0dMoIwEfe-Rktsg",
+        "available": true
+      },
+      {
+        "name": "Chocolate Muffin",
+        "description": "Chocolate muffin",
+        "price": 120,
+        "image": "https://igjawvqjhretaovvuxxn.supabase.co/storage/v1/object/sign/product-images/chocolate%20muffin.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9jYzJjZWMzMS0wMzcyLTQyN2UtODVjZS0xZmQwM2UzNDg1OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9jaG9jb2xhdGUgbXVmZmluLnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODUwNTYxNzAsImV4cCI6MTgxNjU5MjE3MH0.QRZm7XAiW5tDn35dwwE_wdSWlGb7EkIaXLBdb4bl-Dg",
+        "available": true
+      }
+    ]
+  }
+]
